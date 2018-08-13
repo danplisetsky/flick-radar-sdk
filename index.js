@@ -26,8 +26,8 @@ var generateRequest = function () {
           case 0:
             _context.next = 2;
             return method(path).query(query).use(prefix).timeout({
-              response: 6000,
-              deadline: 10000
+              response: 26000,
+              deadline: 60000
             });
 
           case 2:

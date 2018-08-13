@@ -10,8 +10,8 @@ const generateRequest = async ({ method, path, query }) =>
     .query(query)
     .use(prefix)
     .timeout({
-      response: 6000,
-      deadline: 10000
+      response: 26000,
+      deadline: 60000
     });
 
 // ================================
